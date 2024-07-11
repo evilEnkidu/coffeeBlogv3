@@ -1,0 +1,127 @@
+/* Global *//* Global *//* Global *//* Global */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+h2, h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+p{
+    white-space: initial;
+    padding-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{ 
+    line-height: 2;
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 400px;
+}
+footer{
+    background-color: black;
+    padding: 25px;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Utilities *//* Utilities *//* Utilities *//* Utilities */
+.bold{
+    font-weight: bolder;
+}
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a{
+    padding: 12px 10px;
+    margin-right: 25px;
+}
+.imgBody{
+    padding-top: 40px;
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-item{
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+}
+.bodyalign{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.blk-btn{
+    background-color: black;
+    padding: 15px;
+    display: inline-block;
+    margin: 15px;
+    letter-spacing: 2px;
+}
+.brwn-btn{
+    background-color: rgb(143, 84, 5);
+    padding: 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.footerCoffee{
+    color: white;
+    margin: 0;
+    font-size: 38px;
+}
+.horizontal-list{
+    list-style-type: none; /* No bullet points*/
+    padding: 0%; /* remove default padding */
+    margin: 0; /* remove default margin */
+    display: flex; /* display items in a row */
+}
+.horizontal-list li{
+    color: white;
+    margin-right: 20px; /* space between items */
+}
+.horizontal-list li:last-child{
+    margin-right: 0; /* remove space after last item */
+}
+.horizontal-list a{
+    color: white;
+    text-decoration: none;
+}
+.horizontal-list a:hover{
+    text-decoration: underline;
+}
+.container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.center{
+    text-align: center;
+}
